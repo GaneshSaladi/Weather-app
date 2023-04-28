@@ -52,12 +52,12 @@ function App() {
             <div className="temp">
             {data.main ? <h1>{data.main.temp}°C</h1> : null}
             </div>
-            {/* <div>
+            <div>
             {data.weather ? <p>{data.weather[0].main}</p> : null}
-            </div> */}
-            <div className="description">
-              {data.weather ? <p>{data.weather[0].main}</p> : null}
-            </div>
+            </div> 
+//             <div className="description">
+//               {data.weather ? <p>{data.weather[0].main}</p> : null}
+//             </div>
           </div>
 
           {data.name !== undefined && (
